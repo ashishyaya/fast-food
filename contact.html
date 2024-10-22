@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+        <!-- Aos link -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- Font Awsome link -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- header --> 
+    <header> 
+        <nav> 
+            <ul class="nav-bar"> 
+                <li class="logo"><a href="#"><img src="final LOGO.png" /></a></li> 
+                <input type="checkbox" id="check" /> 
+                <span class="menu"> 
+                    <label for="check" class="open-menu"><i class="fas fa-times" id="cross"></i></label> 
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="#">About Us</a></li> 
+                    <li><a href="menu.html">Menu</a></li> 
+                    <li><a href="contact.html">Contact</a></li> 
+                    <li><a href="Gallery.html">Gallery</a></li> 
+                      
+                </span> 
+                <label for="check" class="open-menu"><i class="fas fa-bars" ></i></label> 
+            </ul> 
+        </nav> 
+    </header> 
+ 
+    <section class="contact-section" data-aos="fade-in" data-aos-duration="1000"> 
+        <h1 class="contact-title">Contact</h1> 
+ 
+        <div class="contact-info"> 
+            <div class="contact-item"> 
+                <div class="icon"><i class="fa-solid fa-phone"></i></div> 
+                <h3>Phone</h3> 
+                <p>17774563</p> 
+            </div> 
+ 
+            <div class="contact-item"> 
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div> 
+                <h3>Email</h3> 
+                <p>paradox277@gmail.com</p> 
+            </div> 
+ 
+            <div class="contact-item"> 
+                <div class="icon"><i class="fa-solid fa-address-book"></i></div> 
+                <h3>Address</h3> 
+                <p>Olakha, Thimphu, Bhutan</p> 
+            </div> 
+            <div id="socialMedia" >
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div> 
+    </section> 
+    <div class="container"> 
+ 
+ 
+        <!-- Contact Form --> 
+        <div class="contact-form" data-aos="slide-right" data-aos-duration="1000"> 
+            <h2>Contact Form</h2> 
+            <form action="#" method="post"> 
+                <label for="name">Your Name</label> 
+                <input type="text" id="name" name="name" placeholder="Enter your name"required> 
+                 
+                <label for="email">Your Email </label> 
+                <input type="email" id="email" name="email" placeholder="@email.com" required> 
+                 
+                <label for="message">Your Message</label> 
+                <textarea id="message" name="message" placeholder="Any message" required></textarea> 
+                 
+                <button onclick="pop()" type="submit">Send Message</button> 
+            </form> 
+        </div> 
+ 
+        <!-- map --> 
+ 
+        <div class="map" data-aos="slide-left" data-aos-duration="4000"> 
+            <h2>Our Location</h2> 
+            <iframe  
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.9513022753663!2d89.64046459999999!3d27.470775399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e1958895bf55fd%3A0x5d216b5e742f15c2!2sHotel%20Yoesel!5e0!3m2!1sen!2sbt!4v1728575052891!5m2!1sen!2sbt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  
+                width="450"  
+                height="300"  
+                style="border:0;"  
+                allowfullscreen=""  
+                loading="lazy"> 
+            </iframe> 
+        </div> 
+    </div> 
+ 
+ 
+     
+    
+             
+                 
+              
+ 
+    <!-- Footer Path --> 
+    <!-- Footer Path --> 
+ 
+     
+    <div id="footer"> 
+        <div id="footerContent"> 
+            <img src="final LOGO.png" alt=""> 
+            <i class="fa-brands fa-facebook"></i> 
+            <i class="fa-brands fa-twitter"></i> 
+            <i class="fa-brands fa-instagram"></i> 
+            <i class="fa-brands fa-whatsapp"></i> 
+            <h3><i class="fa-solid fa-location-dot"></i>Building No.23 ClockTower Thimphu 110011</h3> 
+        </div> 
+    </div> 
+ 
+    <footer> 
+        &copy; Para-Dox 2024.   
+    </footer> 
+ 
+     
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    <!--  JS AOS link  --> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+  <script> 
+    AOS.init(); 
+  </script>
+
+
+</body>
+</html>
